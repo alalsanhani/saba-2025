@@ -1,0 +1,13 @@
+workflows:
+  default-workflow:
+    name: Default Workflow
+    environment:
+      flutter: stable
+      xcode: latest
+      cocoapods: latest
+    scripts:
+      - flutter packages get
+      - flutter build apk --release
+    artifacts:
+      - build/app/outputs/**/*.apk
+
