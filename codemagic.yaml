@@ -4,7 +4,7 @@ workflows:
     environment:
       flutter: stable
       xcode: latest
-      cocoapods: latest
+      cocoapods: 1.16.2
     scripts:
       - flutter packages get
       - flutter build apk --release
