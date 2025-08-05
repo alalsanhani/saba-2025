@@ -1,14 +1,17 @@
-name: saba_sponge_app
-description: A Flutter app to showcase Saba Sponge Factory products.
-version: 0.1.0
+name: saba_flutter_ready
+description: تطبيق مصنع سبأ للأسفنج
+publish_to: 'none'
+
+version: 1.0.0+1
 
 environment:
-  sdk: ">=3.3.0 <4.0.0"
+  sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.6
+
+  cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
@@ -16,7 +19,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  assets:
-    - assets/pressure_30.png
-    - assets/super_24.png
-    - assets/normal_18.png
